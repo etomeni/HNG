@@ -1,6 +1,6 @@
 <?php
-    require_once 'classes.php';
-    $database = new Database;
+    // require_once 'classes.php';
+    // $database = new Database;
 
     $name = $email = $message = "";
     $errors = array('name'=>'', 'email'=>'', 'message'=>'', 'success'=>'', 'dbError'=>'');
@@ -35,18 +35,21 @@
             // echo 'There are errors in the form';
         } else {
             unset($_POST['submitContactForm']);
-           
-            $datas = [
-                "name" => $name,
-                "email" => $email,
-                "message" => $message
-            ];    
+            
+            $errors['success'] = "Thanks! We've received your message and will respond soon.";
 
-            if ($database->insertdb("contact", $datas)) {
-                $errors['success'] = "Thanks! We've received your message and will respond soon.";
-            } else {
-                $errors['dbError'] = 'error sending message to the database';
-            }
+           
+            // $datas = [
+            //     "name" => $name,
+            //     "email" => $email,
+            //     "message" => $message
+            // ];    
+
+            // if ($database->insertdb("contact", $datas)) {
+            //     $errors['success'] = "Thanks! We've received your message and will respond soon.";
+            // } else {
+            //     $errors['dbError'] = 'error sending message to the database';
+            // }
         }
     }
 

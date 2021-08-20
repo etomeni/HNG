@@ -1,5 +1,5 @@
 <?php
-    require_once 'authController/contactAuth.php';
+    // require_once 'authController/contactAuth.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
