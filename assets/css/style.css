@@ -1,0 +1,93 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info-sum p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.nav-sidebar,
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+
+}
+.nav-sidebar {
+    left: -100%;
+    max-width: 300px;
+    transition: all ease 0.25s;
+}
+.nav-overlay {
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    visibility: hidden;
+}
+.main-nav.active .nav-sidebar {
+    left: 0;
+}
+.main-nav.active .nav-overlay {
+    visibility: visible;
+}
+
+@media (min-width: 992px) {
+    .nav-sidebar {
+        position: relative;
+        top: auto;
+        bottom: auto;
+        left: auto;
+        flex-direction: row;
+        max-width: 100%;
+        transition: none;
+        overflow-y: visible;
+    }
+}
+
+.close-side-nav {
+    font-size: 25px;
+    padding: 5px;
+    /* border: 1px solid #000; */
+    border-radius: 100%;
+    margin: 5px 16px 0 0;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.596)!important;
+    float: right;
+}
+.sidebar-nav-brand {
+    padding: 10px 0 27px 0;
+    border-bottom: 1px solid #ced4da;
+    margin-bottom: 10px;
+}
+section .rounded {
+    border-radius: .60rem!important;
+} 
+.side1 {
+    background: linear-gradient(135deg,#2c65bd 0,#55989f 100%)!important;
+    border-top-left-radius: .60rem!important;
+    border-bottom-left-radius: .60rem!important;
+}
+header .container {
+    padding: 0;
+}
+
+.skills span {
+    background: #6c757d;
+    color: white;
+    padding: 8px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.zuri-logo-text {
+    font-weight: bolder;
+}
+.Contactsection {
+    max-width: 25%;
+    margin: auto;
+    padding: auto;
+}
+footer a {
+    text-decoration: none;
+}
