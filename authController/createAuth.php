@@ -1,7 +1,7 @@
 <?php
 
-    // require_once 'classes.php';
-    // $database = new Database;
+    require_once 'classes.php';
+    $database = new Database;
 
     $Fname = $Lname = $email = $Phone = $DOB = $Address = $Description = $University = $Course = 
     $sss = $Certificate = $Picture = "";
@@ -139,67 +139,67 @@
             }
 
             if(!array_filter($errors)){
-                
-                session_start();
-                $_SESSION['Fname'] = $Fname;
-                $_SESSION['Lname'] = $Lname;
-                $_SESSION['email'] = $email;
-                $_SESSION['Phone'] = $Phone;
-                $_SESSION['DOB'] = $DOB;
-                $_SESSION['Address'] = $Address;
-                $_SESSION['Description'] = $Description;
-                $_SESSION['University'] = $University;
-                $_SESSION['Course'] = $Course;
-                $_SESSION['sss'] = $sss;
-                $_SESSION['Certificate'] = $Certificate;
-                $_SESSION['Picture'] = $imgName;
 
-                $_SESSION['success'] = 'Registration successful, here is your resume!';
+                // session_start();
+                // $_SESSION['Fname'] = $Fname;
+                // $_SESSION['Lname'] = $Lname;
+                // $_SESSION['email'] = $email;
+                // $_SESSION['Phone'] = $Phone;
+                // $_SESSION['DOB'] = $DOB;
+                // $_SESSION['Address'] = $Address;
+                // $_SESSION['Description'] = $Description;
+                // $_SESSION['University'] = $University;
+                // $_SESSION['Course'] = $Course;
+                // $_SESSION['sss'] = $sss;
+                // $_SESSION['Certificate'] = $Certificate;
+                // $_SESSION['Picture'] = $imgName;
 
-                header('location: resume.php');
+                // $_SESSION['success'] = 'Registration successful, here is your resume!';
+
+                // header('location: resume.php');
                 
 
-                // $datas = [
-                //     "Fname" => $Fname,
-                //     "Lname" => $Lname,
-                //     "email" => $email,
-                //     "Phone" => $Phone,
-                //     "DOB" => $DOB,
-                //     "Address" => $Address,
-                //     "Description" => $Description,
-                //     "University" => $University,
-                //     "Course" => $Course,
-                //     "sss" => $sss,
-                //     "Certificate" => $Certificate,
-                //     "Picture" => $imgName
-                // ];
+                $datas = [
+                    "Fname" => $Fname,
+                    "Lname" => $Lname,
+                    "email" => $email,
+                    "Phone" => $Phone,
+                    "DOB" => $DOB,
+                    "Address" => $Address,
+                    "Description" => $Description,
+                    "University" => $University,
+                    "Course" => $Course,
+                    "sss" => $sss,
+                    "Certificate" => $Certificate,
+                    "Picture" => $imgName
+                ];
                 
-                // if ($database->insertdb("resume", $datas)) {
+                if ($database->insertdb("resume", $datas)) {
                     
-                //     session_start();
+                    session_start();
                     
-                //     // $_SESSION['Pid'] = $Pid;
-                //     $_SESSION['Fname'] = $Fname;
-                //     $_SESSION['Lname'] = $Lname;
-                //     $_SESSION['email'] = $email;
-                //     $_SESSION['Phone'] = $Phone;
-                //     $_SESSION['DOB'] = $DOB;
-                //     $_SESSION['Address'] = $Address;
-                //     $_SESSION['Description'] = $Description;
-                //     $_SESSION['University'] = $University;
-                //     $_SESSION['Course'] = $Course;
-                //     $_SESSION['sss'] = $sss;
-                //     $_SESSION['Certificate'] = $Certificate;
-                //     $_SESSION['Picture'] = $imgName;
+                    // $_SESSION['Pid'] = $Pid;
+                    $_SESSION['Fname'] = $Fname;
+                    $_SESSION['Lname'] = $Lname;
+                    $_SESSION['email'] = $email;
+                    $_SESSION['Phone'] = $Phone;
+                    $_SESSION['DOB'] = $DOB;
+                    $_SESSION['Address'] = $Address;
+                    $_SESSION['Description'] = $Description;
+                    $_SESSION['University'] = $University;
+                    $_SESSION['Course'] = $Course;
+                    $_SESSION['sss'] = $sss;
+                    $_SESSION['Certificate'] = $Certificate;
+                    $_SESSION['Picture'] = $imgName;
     
-                //     $_SESSION['success'] = 'Registration successful, here is your resume!';
+                    $_SESSION['success'] = 'Registration successful, here is your resume!';
     
-                //     header('location: resume.php');
-                //     // exit();
+                    header('location: resume.php');
+                    // exit();
     
-                // } else {
-                //     $errors['dbError'] = 'error saving data to the database, thus unable to create resume';
-                // }
+                } else {
+                    $errors['dbError'] = 'error saving data to the database, thus unable to create resume';
+                }
 
             }
             
