@@ -68,7 +68,7 @@
 
                 <div class="col-6">
                     <div class="info-sum">
-                        <p class="text-white"><i class="las la-phone-alt"></i> 08066395804 </p>
+                        <p class="text-white"><i class="las la-phone-alt"></i> +234-8108786933 </p>
 
                         <p class="text-white"><i class="las la-calendar-check"></i> 07 July, 1995 </p>
 
@@ -109,6 +109,33 @@
                         <p>Crown Computers</p>
                         <p><small><i> 09/2018 – 12/2018 </i></small></p>
                     </div>
+
+                    <h1 class="text-secondary mt-5">CERTIFICATES</h1>
+                    <div class="ps-4">
+                        <p><b> Bachelor of Engineering </b></p>
+                        <p>(10/2015 – 07/2021)</p>
+                        <li><small><i> B.Engr in Computer Engineering </i></small></li>
+                    </div>
+                    <div class="ps-4 mt-3">
+                        <p><b> National Examination Council (NECO) </b></p>
+                        <p>(10/2015 – 07/2021)</p>
+                        <li><small><i> Senior Secondary Certificate Examination (SSCE) </i></small></li>
+                    </div>
+                    <div class="ps-4 mt-3">
+                        <p><b> West African Examinations Council (WAEC) </b></p>
+                        <p>(10/2015 – 07/2021)</p>
+                        <li><small><i> West African Senior School Certificate Examination (WASSCE) </i></small></li>
+                    </div>
+                    <div class="ps-4 mt-3">
+                        <p><b> National Examination Council </b></p>
+                        <p>(10/2015 – 07/2021)</p>
+                        <li><small><i> Junior Secondary Certificate Examination (JSCE) </i></small></li>
+                    </div>
+                    <div class="ps-4 mt-3">
+                        <p><b> National Examination Council </b></p>
+                        <p>(10/2015 – 07/2021)</p>
+                        <li><small><i> Basic Education Certification Examination (BECE) </i></small></li>
+                    </div>
                 </div>
 
                 <div class="col">
@@ -124,10 +151,16 @@
 
                     <h1 class="text-secondary mt-5">PERSONAL PROJECTS</h1>
                     <div class="ps-4">
+                        <p><b> A Smart Shuttle Bus Seat Reservation System With Real-time Display of Arrival Time. </b></p>
+                        <p>(03/2019 – 04/2019)</p>
+                        <li><small><i>The App reduces the stress of reserving and paying for a seat in a shuttle bus, and also provides the bus management team
+                             with the appropriate information and control they need regarding bus operations, drivers and passengers information. </i></small></li>
+                    </div>
+                    <div class="ps-4 pt-3">
                         <p><b> A Database Management of Food Commodities </b></p>
                         <p>(03/2019 – 04/2019)</p>
                         <li><small><i> Created a database management for the supply of food
-                            commodities. </i></small></li>
+                            commodities, using Microsoft Access. </i></small></li>
                     </div>
                     <div class="ps-4 pt-3">
                         <p><b> Hall6 </b></p>
@@ -135,12 +168,15 @@
                         <li><small><i>A news, scholarship updates & dating blog for students, especially
                             for those in Uniuversity of Uyo. </i></small></li>
                     </div>
-
-                    <h1 class="text-secondary mt-5">CERTIFICATES</h1>
-                    <div class="ps-4">
-                        <p><b> Bachelor of Engineering </b></p>
-                        <p>(10/2015 – 07/2021)</p>
-                        <li><small><i> B.Engr in Computer Engineering </i></small></li>
+                    <div class="ps-4 pt-3">
+                        <p><b> Smartinfo </b></p>
+                        <p>(01/2019 – 02/2019)</p>
+                        <li><small><i>A blog that updates the latest opportunities such as scholarships, recruitments, employments and opportunities, etc.</i></small></li>
+                    </div>
+                    <div class="ps-4 pt-3">
+                        <p><b> Uncommon Reporters </b></p>
+                        <p>(01/2019 – 02/2019)</p>
+                        <li><small><i>A news blog that focused on discussing the politics in Akwa Ibom, uyo.  </i></small></li>
                     </div>
 
                     <h1 class="text-secondary mt-5">LANGUAGES</h1>
